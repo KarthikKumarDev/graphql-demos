@@ -1,0 +1,28 @@
+{
+  "name": "mock-linked-in",
+  "version": "1.0.0",
+  "description": "A GraphQL demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthikkumar1996/graphql-demos.git"
+  },
+  "keywords": [
+    "GraphQL"
+  ],
+  "author": "Karthik Kumar J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthikkumar1996/graphql-demos/issues"
+  },
+  "homepage": "https://github.com/karthikkumar1996/graphql-demos#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.1.0",
+    "lodash": "^4.17.15"
+  }
+}
