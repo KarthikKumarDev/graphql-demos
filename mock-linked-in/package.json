@@ -4,7 +4,10 @@
   "description": "A GraphQL demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "data": "json-server --watch db.json",
+    "dev": "concurrently -k yarn:server yarn:data"
   },
   "repository": {
     "type": "git",
@@ -20,9 +23,11 @@
   },
   "homepage": "https://github.com/karthikkumar1996/graphql-demos#readme",
   "dependencies": {
+    "axios": "^0.19.2",
+    "concurrently": "^5.2.0",
     "express": "^4.17.1",
     "express-graphql": "^0.9.0",
     "graphql": "^15.1.0",
-    "lodash": "^4.17.15"
+    "json-server": "^0.16.1"
   }
 }
