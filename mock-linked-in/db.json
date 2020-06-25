@@ -1,7 +1,24 @@
 {
   "users": [
-    { "id": "u001", "firstName": "Raj", "age": 55 },
-    { "id": "u002", "firstName": "Hari", "age": 32 },
-    { "id": "u003", "firstName": "Ameer", "age": 88 }
+    { "id": "u001", "firstName": "Raj", "age": 55, "companyId": "c001" },
+    { "id": "u002", "firstName": "Hari", "age": 32, "companyId": "c001" },
+    { "id": "u003", "firstName": "Ameer", "age": 88, "companyId": "c002" }
+  ],
+  "companies": [
+    {
+      "id": "c001",
+      "name": "Apple",
+      "description": "Superior electronics company"
+    },
+    {
+      "id": "c002",
+      "name": "Google",
+      "description": "Search Engine and Apps company"
+    },
+    {
+      "id": "c003",
+      "name": "Facebook",
+      "description": "Social media and communications company"
+    }
   ]
 }
